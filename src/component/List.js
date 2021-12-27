@@ -1,0 +1,13 @@
+
+import John from './movies/wick.png';
+import Wakanda from './movies/wakand.png';
+import Avatar from './movies/avatar.png';
+import Morbius from './movies/morbius.png';
+
+export const movies = [
+    {title: 'John Wick 4', genre: 'Action', description: 'John Wick 4 or John Wick: Chapter 4 in Quebec is an American action film directed by Chad Stahelski and scheduled for release in 2022. It is the fourth installment in the John Wick film series and follows John Wick Wick Parabellum and John Wick 2.', affiche:John, rate:1, trailer: <iframe width="420" height="220" src="https://www.youtube.com/embed/56pvThSsoSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>},
+    {title: 'Wakanda forever',genre: 'Action', description: 'A sequel that will continue to explore the extraordinary world of Wakanda and its heroes.',affiche:Wakanda,rate:3, trailer: <iframe width="420" height="220" src="https://www.youtube.com/embed/SfEJruPT5Zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>},              
+    {title: 'Avatar 2',genre: 'Action', description: 'Jake Sully and Neytiri have formed a family and do everything to stay as close as possible. However, they are forced to leave their homes and explore the various still mysterious regions of Pandora. When an ancient threat resurfaces, Jake is going to have to wage a difficult war against the humans.',affiche:Avatar,rate:2, trailer: <iframe width="420" height="220" src="https://www.youtube.com/embed/MknKGdvuYKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>},
+    {title: 'Morbius', genre: 'Action', description: 'Award-winning former biochemist Michael Morbius suffers from a rare blood disorder and wants to stop it through biochemical experiments, but instead comes into possession of some sort of superhuman vampire.', affiche:Morbius, rate:5, trailer: <iframe width="420" height="220" src="https://www.youtube.com/embed/oZ6iiRrz1SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>},
+
+];
